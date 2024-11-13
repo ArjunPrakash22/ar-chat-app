@@ -1,0 +1,150 @@
+.register-page{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.register-div {
+    width: 30%;
+    height: 40vh;
+    overflow-y: scroll;
+    padding: 15px;
+    border-radius: 10px;
+    background: url('../../Assets/Pictures/bg2.png');
+    
+}
+
+/* Scrollbar customization */
+.register-div::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+.register-div::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Track color */
+}
+
+.register-div::-webkit-scrollbar-thumb {
+    background-color: #4a90e2; /* Scrollbar color */
+    border-radius: 10px; /* Roundness of the scrollbar */
+    border: 2px solid #f1f1f1; /* Optional: adds padding around the thumb */
+}
+/* Hide text when an image is uploaded */
+.hidden {
+    display: none;
+}
+
+
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.uploaded-image {
+    display: block;
+    margin: 10px auto;
+    width: 70%;
+    /* padding: 10px; */
+    /* max-width: 300px; */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.text-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline:none;
+}
+
+.verify-button {
+    padding: 10px;
+    background: rgb(78,208,253);
+background: linear-gradient(90deg, rgba(78,208,253,1) 0%, rgba(30,176,250,1) 25%, rgba(4,158,248,1) 100%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.verify-button:hover {
+    background: rgb(4,158,248);
+background: linear-gradient(90deg, rgba(4,158,248,1) 5%, rgba(30,176,250,1) 40%, rgba(78,208,253,1) 100%);
+}
+
+.verification-result {
+    margin-top: 20px;
+    color: #d9534f;
+    text-align: center;
+}
+
+.register-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 10px; */
+    /* margin-top: 500px; */
+}
+
+.verify-button:disabled {
+    background-color: #d3d3d3; /* Light grey color for disabled state */
+    color: #aaa;
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+  
+.file-upload-area {
+    margin-top: 10px;
+    width: 300px; 
+    padding: 20px;
+    height: 200px; /* Set the height you desire */
+    border: 2px dotted #4a90e2; /* Dotted border */
+    border-radius: 10px; /* Rounded corners */
+    display: flex;
+    font-size: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px; /* Space between upload area and image */
+    transition: background-color 0.3s;
+}
+
+.file-upload-area:hover {
+    background-color: rgba(74, 144, 226, 0.1); /* Light background on hover */
+}
+.file-upload-area-p{
+    font-size: 17px;
+    margin-top: 0px;
+}
+.file-upload-area-p1{
+    font-size: 14px;
+    margin-top: 0px;
+}
+.file-upload-area-p2{
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+.cloud-icon {
+    width: 100%;
+    font-size: 30px; /* Size of the cloud icon */
+    color: #4a90e2; /* Color of the icon */
+    margin-bottom: 10px; /* Space between icon and text */
+}
+
+.uploaded-image {
+    width: 50%; /* Make image responsive */
+    /* max-width: 300px; Set a max width */
+    border-radius: 5px; /* Rounded corners for image */
+}
